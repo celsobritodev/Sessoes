@@ -7,6 +7,13 @@ public class Usuario {
 	
 	
 	
+	public Usuario(int id, String nome, String senha) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.senha = senha;
+	}
+
 	public Usuario(String nome, String senha) {
 		super();
 		this.nome = nome;

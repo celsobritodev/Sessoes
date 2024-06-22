@@ -1,7 +1,13 @@
 package bd;
 
+import java.util.List;
+
 public interface ColecaoDeUsuario extends Colecao<Usuario> {
 
-	public Usuario porNome( String nome ) throws ColecaoException;
+	public List<Usuario> porNome(String nome) throws ColecaoException;
+	public Usuario porNomeExato(String nome) throws ColecaoException;
+
 
 }
+
+
